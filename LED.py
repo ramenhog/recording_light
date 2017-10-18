@@ -18,9 +18,6 @@ from email.MIMEBase import MIMEBase
 from email.Utils import COMMASPACE, formatdate
 from email import Encoders
 
-USERNAME = "magentorecordinglight"
-PASSWORD = "#WeAreMagento!"
-
 end_queue = []
 
 GPIO.setmode(GPIO.BCM)
